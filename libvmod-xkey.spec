@@ -3,7 +3,7 @@
 Name:              libvmod-xkey
 Version:           20151209
 Release:           1%{?dist}
-Summary:           Varnish Cookie VMOD
+Summary:           Varnish Secondary hashes VMOD
 License:           FreeBSD
 Source:            https://github.com/varnish/libvmod-xkey/archive/%{libvmod_xkey_git_branch}.tar.gz#/libvmod-xkey-%{libvmod_xkey_git_branch}.tar.gz
 URL:               https://www.varnish-cache.org/vmod/xkey

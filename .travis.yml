@@ -1,0 +1,14 @@
+sudo: required
+
+services:
+  - docker
+
+branches:
+  only:
+    - master
+
+install:
+  - docker build -t hnakamur/libvmodxkeyrpm .
+
+script:
+  - docker run hnakamur/libvmodxkeyrpm "$COPR_LOGIN" "$COPR_USERNAME" "$COPR_TOKEN"
